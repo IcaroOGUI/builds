@@ -177,7 +177,7 @@ Error generating stack: `+e.message+`
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: bold;
-  text-decoration: none; 
+  text-decoration: none;
   text-align: center;
   transition: filter 0.2s ease-in-out;
 
@@ -984,7 +984,7 @@ Organizacional`,highlightsstring10:`R$ 10.7`,highlightsText10:`invertidos en acc
   font-weight: 700;
 `,Wi=M.p`
   font-size: 0.9rem;
-  font-weight: 50;
+  font-weight: 100;
   letter-spacing: 0.04em;
   line-height: 1;
   width: 100%;
