@@ -11,14 +11,14 @@ Error generating stack: `+e.message+`
 
   @font-face {
     font-family: 'Roc Grotesk';
-    src: url(${``+new URL(`RocGrotesk-Condensed-ExtraLight-Cjf0gN-U.otf`,import.meta.url).href}) format('opentype');
+    src: url(${``+new URL(`RocGrotesk-Thin-Cjf0gN-U.otf`,import.meta.url).href}) format('opentype');
     font-weight: 50;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: 'Roc Grotesk';
-    src: url(${``+new URL(`RocGrotesk-Condensed-ExtraLight-Cjf0gN-U.otf`,import.meta.url).href}) format('opentype');
+    src: url(${``+new URL(`RocGrotesk-Thin-Cjf0gN-U.otf`,import.meta.url).href}) format('opentype');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
