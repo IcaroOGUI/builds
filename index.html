@@ -24,10 +24,38 @@
     <title>Relatório de Sustentabilidade 2025</title>
     <meta name="description" content="Confira o Relatório de Sustentabilidade 2025. Conheça nossas iniciativas, metas e resultados voltados para o desenvolvimento sustentável e práticas de ESG." />
 
-    
     <script type="module" crossorigin src="./assets/index-BDkY7_S5.js"></script>
+    <style>
+          [vw] {
+            top: 50% !important; 
+            transform: translateY(-50%) !important; 
+            right: 0 !important; 
+            left: auto !important;
+          }
+          [vw] [vw-access-button] {
+            width: 35px !important;
+            height: 35px !important;
+          }
+          
+          [vw] [vw-access-button] img {
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: contain;
+          }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
   </body>
 </html>
